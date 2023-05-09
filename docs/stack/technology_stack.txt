@@ -1,5 +1,5 @@
 Backend
-MySql -> PHP -> RestAPI (via GET Request using sessionToken from mySql Database)
+MySql -> PHP -> RestAPI (via GET Request using sessionToken from mySql Database, SEND via POST Request)
 
 Frontend
 Bootstrap v.(?) - Responsive Layout, style templates.
