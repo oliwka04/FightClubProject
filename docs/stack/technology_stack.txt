@@ -1,0 +1,8 @@
+Backend
+MySql -> PHP -> RestAPI (via GET Request using sessionToken from mySql Database)
+
+Frontend
+Bootstrap v.(?) - Responsive Layout, style templates.
+Javascript - Updating data on frontend.
+Animate.css - For speed up animations implementation.
+Font Awesome - Icons stack (partially included in Bootstrap).
