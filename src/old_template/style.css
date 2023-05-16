@@ -1,0 +1,68 @@
+body{
+  background-image: url(back.jpg);
+  background-size: cover  ;
+  background-attachment: fixed;
+ 
+}
+#a{
+  background-color: rgba(255, 255, 255, 0.699);
+  margin-left: 20%;
+  width: 60%;
+  text-align: center;
+}
+
+#n1{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 60px;
+    font-family: Georgia;
+}
+
+.n2{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Georgia;
+    margin-bottom: 30px;
+}
+
+.n3{
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: Georgia;
+    margin-bottom: 30px;
+}
+
+w{
+    font-weight: 700;
+}
+
+.o{
+    text-align: center;
+    width: 330px;
+    height: 330px;
+}
+
+.n4{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Georgia;
+    margin-bottom: 30px;
+}
+
+#b{
+    background-color: rgba(255, 255, 255, 0.699);
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+}

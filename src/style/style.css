@@ -1,0 +1,71 @@
+.adj-bg {
+    background-color: blueviolet;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.adj-header {
+    height: 120px;
+    background-color: rgba(250, 235, 215, 0.95);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+.adj-brand {
+    background-image: url(../img/logo.png);
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 2%;
+}
+
+.adj-content {}
+
+
+.adj-content-paper {
+    background-color: rgba(250, 235, 215, 0.95);
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-top: calc(120px + 2em);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+
+/* Colors adj */
+.active{
+    background-color: rgb(179, 153, 120) !important;
+    color: rgb(250, 235, 215) ;
+}
+
+.nav-link{
+    color: rgb(137, 117, 91) ;
+    font-weight: 700;
+}
+.nav-link:hover{
+    color: rgb(160, 136, 104) ;
+}
