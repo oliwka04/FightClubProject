@@ -17,6 +17,7 @@ function test()
 
 function getUsers()
 {
+    if (isset($_COOKIE["session_token"])) {
     $api = new stdClass();
     $api->users = getFromDB("SELECT * FROM `users`");
     echo json_encode($api);
