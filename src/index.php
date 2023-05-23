@@ -18,19 +18,28 @@
                 <a class="nav-link active" aria-current="page" href="?page=home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Aktualności</a>
+                <a class="nav-link" href="?page=news">Aktualności</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">O klubie</a>
+                <a class="nav-link" href="?page=aboutus">O klubie</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Wydarzenia</a>
+                <a class="nav-link" href="?page=events">Wydarzenia</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="?page=trainers">Trenerzy</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
+                <a class="nav-link" href="?page=contact">Kontakt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="?page=login">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="?page=register">Rejestracja</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="?page=dash">Mój profil</a>
             </li>
         </ul>
 
@@ -44,19 +53,29 @@
                 <div class="adj-content-paper">
                     <div class="container">
                         <?php
-
                         if (isset($_GET['page'])) {
-                            if($_GET['page'] == "trainers"){
-                                include("inc/trainers.php");
+                            if($_GET['page'] == "news"){
+                                include("inc/news.php");
                             }else if($_GET['page'] == "home"){
                                 include("inc/home.php");
+                            }else if($_GET['page'] == "aboutus"){
+                                include("inc/aboutus.php");
+                            }else if($_GET['page'] == "events"){
+                                include("inc/events.php");
+                            }else if($_GET['page'] == "trainers"){
+                                include("inc/trainers.php");
+                            }else if($_GET['page'] == "contact"){
+                                include("inc/contact.php");
+                            }else if($_GET['page'] == "login"){
+                                include("inc/login.php");
+                            }else if($_GET['page'] == "register"){
+                                include("inc/register.php");
+                            }else if($_GET['page'] == "dash"){
+                                include("inc/dashboard.php");
                             }
-                        }else{
-                            include("inc/home.php");
-                        }
-
-
-                        ?>
+                    }else{
+                        include("inc/home.php");
+                    }?>
                     </div>
 
                 </div>

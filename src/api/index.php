@@ -21,7 +21,7 @@ function getUsers()
     $api = new stdClass();
     $api->users = getFromDB("SELECT * FROM `users`");
     echo json_encode($api);
-}
+}}
 
 function getFromDB($sql)
 {
