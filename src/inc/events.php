@@ -3,10 +3,10 @@
 
 
 
-<link href="api/calendarr.css" rel="stylesheet" type="text/css">
+<link href="style/calendarr.css" rel="stylesheet" type="text/css">
 <?php
 include("api/db_login_data.php");
-include("api/calendar.php");
+include("inc/calendar.php");
 //echo "oferta(dyscypliny) + kalendarz + zapisy/rezerwacje";
 $servername = $_SESSION['servername'];
 $username = $_SESSION['username'];
